@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "당신이 (아직은)준비된 데이터사이언티스트가 아닌 이유"
+title: "당신이 (아직은) 준비된 데이터사이언티스트가 아닌 이유"
 categories: [Miscellaneous]
 ---
-![img](../images/post-img-07-24.jpg)
-미디엄에 데이터 사이언티스트 관련 좋은 글이 올라왔다. Worth to translate. 중요 부분만 번역/의역을 진행하였다.<br>
+미디엄에 데이터 사이언티스트 관련 좋은 글이 올라왔다. 데이터 사이언티스트라는 영역은 회사마다 요구하는 역할이 다르기 때문에 명확히 정의내리기는 어렵지만, 통상 `데이터 사이언티스트`라면 이런 역량을 요구한다를 짧게 잘 설명한 글이다. 중요 부분만 번역/의역을 진행하였으니 자세한 내용은 원문을 참고하면 되겠다.
+
 원문: [Why you’re not a job-ready data scientist (yet)](https://towardsdatascience.com/why-youre-not-a-job-ready-data-scientist-yet-1a0d73f15012)
 
 ## 이유 1: 데이터 사이언스에 필요한 Python 스킬
