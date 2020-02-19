@@ -26,11 +26,11 @@ footer-links:
   flickr:
   github: codingchloe/codingchloe.github.io
   instagram: https://instagram.com/gogo.chloe.park
-  linkedin:  
+  linkedin:
   pinterest:
   rss: rss
-  twitter: 
-  stackoverflow: 
+  twitter:
+  stackoverflow:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
@@ -38,7 +38,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: 
+disqus: codingchloe-github-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-124373999-1
@@ -52,7 +52,7 @@ enforce_ssl: https://codingchloe.github.io/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: 
+baseurl:
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -96,4 +96,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
