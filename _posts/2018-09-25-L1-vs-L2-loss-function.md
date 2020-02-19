@@ -8,7 +8,7 @@ Regression문제에서 쓰이는 대표적 Loss function인 L1 loss function과 
 생소한 단어이기에 처음에는 헷갈리실 수 있지만, 이 개념은 어렸을 적 1차 방정식, 2차 방정식 문제를 풀 때 이미 접하였던 내용입니다.
 
 <br />
-# 0. Loss Function 이란?
+## 0. Loss Function 이란?
 Loss Function은 당신이 만든 모델의 예측 값이 실제 값들과 얼마나 유사한지 평가하는 방법입니다. 데이터 셋 안에서의 예측 값(predicted values)이 실제 정답(actual values)과 다르면 다를수록 loss function의 결과값은 커질것이고, 예측 값이 실제 정답과 유사하면 유사할수록 loss function의 결과는 작아지게 됩니다.
 다시 말해, **오차를 측정하는 일이 loss function의 role입니다.**
 
@@ -16,7 +16,7 @@ Loss Function은 당신이 만든 모델의 예측 값이 실제 값들과 얼�
 **오차를 어떠한 방법으로 측정할 것인가?**에 따라 방법론이 나뉘게 되는데 그 중 Regression 문제에 대한 대표 방법론이 **1) L1 loss function**, **2) L2 loss function** 입니다.
 
 <br />
-# 1. L1 Loss Function
+## 1. L1 Loss Function
 아래 그림을 보겠습니다.
 ![img1](../images/mae.jpg)
 동그란 점이 실제 값이고, 점선이 예측 모델의 결과 값이라 하였을 때, 당신의 모델이 얼마나 정확한지 평가하기 위해서는 어떤 방법이 있을까요?
@@ -27,7 +27,7 @@ Loss Function은 당신이 만든 모델의 예측 값이 실제 값들과 얼�
 >y_1 = 0 이고 f(x_1) = 5일때 두 점의 차는 5가 됩니다. 마찬가지로,
 y_2 = 0 이고 f(x_2) = -5일때 두 점의 차는 -5가 됩니다. 오차에 대하여 단순 summation을 한다면 값은 0이 나와, 당신의 모델은 틀린 것이 없는 모델로 판별나게 됩니다. 하지만 이는 사실이 아니죠? 따라서 두 오차에 대해 각각 절대값을 씌우게 된다면 y_1 - f(x_1)의 차이는 5이며, y_2 - f(x_2)의 차이도 5가 되어 최종 loss function의 결과값은 10이 나오게 됩니다.
 
-## 이것이 L1 Loss Function입니다.
+**이것이 L1 Loss Function입니다.**
 이를 수식으로 나타내면 아래와 같습니다.
 
 <br />
@@ -36,12 +36,12 @@ y_2 = 0 이고 f(x_2) = -5일때 두 점의 차는 -5가 됩니다. 오차에 �
 <br />
 결국 **오차의 정도(magnitude without direction)**를 나타내는 값이 되게 됩니다.
 
-<br />
-# 2. L2 Loss Function
+
+## 2. L2 Loss Function
 오차의 absolute value의 summation 외의 다른 오차의 합을 구하는 방법은 무엇이 있을까요?
 absolute value 대신 **제곱(squared)을 취하는 것입니다.**
 
-## 이것이 L2 Loss Function입니다.
+**이것이 L2 Loss Function입니다.**
 수식은 아래와 같습니다.
 
 <br />
@@ -52,7 +52,7 @@ absolute value 대신 **제곱(squared)을 취하는 것입니다.**
 오차의 제곱을 취하면서 L2 Loss function은 **2차 방정식 형태가 됩니다. 그리고 2차 방정식은 U자의 포물선 형태의 방정식이기 때문에 오차의 방향성도 알 수 있습니다.**
 
 <br />
-# 3. L1 Loss function vs. L2 Loss Function
+## 3. L1 Loss function vs. L2 Loss Function
 이 둘의 차이점은 무엇일까요?
 수식에서 눈치를 채셨을 수 있겠지만, **L2 Loss function이 L1 대비 outlier에 더 큰 반응을 하게 됩니다.**
 

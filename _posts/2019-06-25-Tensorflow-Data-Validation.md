@@ -3,7 +3,6 @@ layout: post
 title: "Tensorflow가 만들어낸 편리한 Data validation"
 categories: [Data, Tensorflow]
 ---
-## Tensorflow Data Validation
 Tensorflow가 여러모로 데이터쟁이들에게는 편리한 툴들을 보여주고 있다.
 그 중 Data Validation([링크](https://www.tensorflow.org/tfx/guide/tfdv)는 다음과 같다.)이라는 라이브러리를 개발했는데
 정말 편리한 View다.

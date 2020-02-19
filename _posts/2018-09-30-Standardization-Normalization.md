@@ -42,7 +42,7 @@ Gradient descent를 이용해 가장 최적의 optimal point로 수렴시키는 
 Standardization/Normalization의 수식과 실제 데이터를 통한 예시를 보겠습니다.
 
 <br />
-# 1. Standardization
+## 1. Standardization
 
 Standardization의 수식은 다음과 같습니다.
 
@@ -74,7 +74,7 @@ data.describe()
 
 
 
-
+<br>
 <div>
 <style>
     .dataframe thead tr:only-child th {
@@ -343,7 +343,8 @@ plt.show()
 
 Scale이 달랐던 'nox'와 'tax'를 이제 함께 비교해볼 수 있습니다. Standardization은 mean = 0, variance =1의 값을 가지기 때문에 변환된 데이터의 range가 이에 맞게 변환된 것을 볼 수 있습니다.  
 
-# 2. Normalization
+
+## 2. Normalization
 
 Normalization 수식은 다음과 같습니다.
 
