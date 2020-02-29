@@ -6,8 +6,8 @@ permalink: /about/
 
 <!-- <br>
 # 안녕하세요, Chloe 입니다. &#9997; -->
-![image](../images/charicature.jpeg){: style="float: left; margin:5px 15px 5px 0;"}
-안녕하세요, 데이터 분석가 Chloe입니다. 이 페이지는 기록을 목적으로 만든 블로그입니다. 
+![image](../images/charicature.jpeg =200x){: style="float: left; margin:5px 15px 5px 0;"}
+안녕하세요, 데이터 분석가 Chloe입니다. 이 페이지는 기록을 목적으로 만든 블로그입니다.
 
 
 ## 경력 &#9994;
