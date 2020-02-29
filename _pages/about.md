@@ -6,17 +6,21 @@ permalink: /about/
 
 <!-- <br>
 # 안녕하세요, Chloe 입니다. &#9997; -->
-![image](../images/charicature.jpeg =200x){: style="float: left; margin:5px 15px 5px 0;"}
-안녕하세요, 데이터 분석가 Chloe입니다. 이 페이지는 기록을 목적으로 만든 블로그입니다.
-
-
+<br>
+![image](../images/charicature.jpeg){: style="float: left; margin:5px 15px 5px 0;"}{: width="200" height="200"}
+## 안녕하세요, 데이터 분석가 Chloe입니다.
+이 사이트는 기록 한 번 해보자는 다짐으로 시작하게 된 블로그입니다. 내용이 어떤 방식으든 도움이 된다면 좋겠습니다.
+<br>
+<br>
+<br>
+<br>
 ## 경력 &#9994;
 
 |       | 업무 | 기간 |
 |:-----------------|:----------------------|:-----------------|
 | **Viva Republica**  | Data Analyst     | 2020.02-현재 |
 | **Moloco**  | Data Analyst, Technical Account Manager                | 2019.08-2020.02 |
-| **Naver Clova**  | 프로덕트 매니저                | 2018.11-2019.07 |
+| **Naver Clova**  | AI 프로덕트 매니저                | 2018.11-2019.07 |
 | **Korea Credit Bureau** | 데이터 분석가, 통계 모형 개발 | 2012.12-2018.11 |
 
 
