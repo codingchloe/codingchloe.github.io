@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "바이럴 성장을 모델링하는 방법"
-categories: [Diary]
+categories: [Data]
 ---
 
 이 글은 Rahul Vohra의 [How to Model Viral Growth: The Hybrid Model](https://www.linkedin.com/pulse/20121002124206-18876785-how-to-model-viral-growth-the-hybrid-model/)의 번역본이며, 제가 얻은 경험을 바탕으로 본 글에 대해 이해한 바를 좀 더 추가하였습니다.
